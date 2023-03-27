@@ -1,0 +1,33 @@
+form {
+    display: block;
+    position: relative;
+    margin:auto;
+    width: 50%; /* establece el ancho del formulario al 80% del ancho de la ventana */
+  }
+
+  fieldset {
+    border: none;
+  }
+
+  /* input[type="checkbox"], select {
+    display: inline;
+    margin-top: 10px; /* añade un espacio de 10px arriba de los inputs */
+  /* } */
+
+  input {
+    width: 100%; /* establece el ancho de los inputs al 100% del ancho del formulario */
+    box-sizing: border-box; /* incluye el padding y el border en el ancho de los inputs */
+  }
+
+
+  textarea {
+    display: block;
+    width: 100%;
+  }
+
+  button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  
